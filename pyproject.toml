@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "exchange-rate"
+version = "0.1.0"
+description = "download exchange rates"
+authors = ["AJ-desktop <talkingtoaj@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.23.1"
+pycookiecheat = "^0.7.0"
+requests = "^2.32.3"
+browser-cookie3 = "^0.19.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
